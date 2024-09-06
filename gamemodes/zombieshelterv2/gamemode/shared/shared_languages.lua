@@ -21,6 +21,12 @@
 	Meiryi / Meika / Shiro / Shigure tarafından Zombie Shelter v2.0
 	Oyun modunun ismini ve kodunu ASLA değiştirip düzenleyip yeniden yükleyemezsiniz.
 	Eğer bir problemle karşılaşırsanız, benimle Steam üzerinden iletişime geçebilirsiniz. Bu metni okuduğunuz için teşekkürler.
+
+	PL :
+	Zombie Shelter v2.0 by Meiryi / Meika / Shiro / Shigure
+	NIE POWINIENEŚ edytować / modyfikować / ani rozsyłać danego kodu, tyczy się to też zmieniania nazwy trybu
+	Jeżeli masz jakieś problemy, skontaktuj się zemną na Steam, dziękuję za uwagę
+
 ]]
 
 ZShelter.Lang = {}
@@ -37,6 +43,7 @@ ZShelter.L("#",{
 	["ru"] = "",
 	["zh-TW"] = "",
 	["zh-CN"] = "",
+	["pl"] = "",
 })
 ]]
 ZShelter.L("#SkillPTS", {
@@ -46,6 +53,7 @@ ZShelter.L("#SkillPTS", {
 	["ru"] = "Меню навыков - [N] | Осталось очков : ",
 	["zh-TW"] = "技能樹 - [N] | 剩餘點數 : ",
 	["zh-CN"] = "技能树 - [N] | 剩余点数: ",
+	["pl"] = "Umiejętności - [N] | Pozostałe punkty : ",
 })
 
 ZShelter.L("#GameStartAfter", {
@@ -55,6 +63,7 @@ ZShelter.L("#GameStartAfter", {
 	["ru"] = "Игра начнётся через <VAR> сек.",
 	["zh-TW"] = "遊戲將在 <VAR> 秒後開始",
 	["zh-CN"] = "游戏将在 <VAR> 秒后开始",
+	["pl"] = "Gra się rozpocznie za <VAR> sekund",
 })
 
 ZShelter.L("#RespawnAfter", {
@@ -64,6 +73,7 @@ ZShelter.L("#RespawnAfter", {
 	["ru"] = "Возрождение через <VAR> сек.",
 	["zh-TW"] = "在 <VAR> 秒後重生",
 	["zh-CN"] = "将在 <VAR> 秒后重生",
+	["pl"] = "Odrodzisz się za <VAR> sekund",
 })
 
 ZShelter.L("#BuildingHint", {
@@ -73,6 +83,7 @@ ZShelter.L("#BuildingHint", {
 	["ru"] = "[ЛКМ] Построить   |  [R] Вращать  |   [ПКМ] Отмена",
 	["zh-TW"] = "[左鍵] 建造  |  [R] 旋轉  |  [右鍵] 取消",
 	["zh-CN"] = "[左键] 建造  |  [R] 旋转  |  [右键] 取消",
+	["pl"] = "[LPM] Buduj   |  [R] Obracaj  |   [PPM] Anuluj",
 })
 
 ZShelter.L("#BuildHints", {
@@ -82,6 +93,7 @@ ZShelter.L("#BuildHints", {
 	["ru"] = "[B] Постройки  |  [F2] Меню игры  |  [F6] Конфигурация",
 	["zh-TW"] = "[B] 建造清單  |  [F2] 遊戲介面 |  [F6] 設定介面",
 	["zh-CN"] = "[B] 建造菜单  |  [F2] 模式菜单 |  [F6] 设置菜单",
+	["pl"] = "[B] Menu Budowania  |  [F2] Menu Gry  |  [F6] Konfiguracja",
 })
 
 ZShelter.L("#Shelter", {
@@ -91,6 +103,7 @@ ZShelter.L("#Shelter", {
 	["ru"] = "Убежище",
 	["zh-TW"] = "避難所",
 	["zh-CN"] = "避难所",
+	["pl"] = "Schronienie",
 })
 
 ZShelter.L("#Barricade", {
@@ -100,6 +113,7 @@ ZShelter.L("#Barricade", {
 	["ru"] = "Баррикады",
 	["zh-TW"] = "障礙物",
 	["zh-CN"] = "障碍物",
+	["pl"] = "Barykada",
 })
 
 ZShelter.L("#Trap", {
@@ -109,6 +123,7 @@ ZShelter.L("#Trap", {
 	["ru"] = "Ловушки",
 	["zh-TW"] = "陷阱",
 	["zh-CN"] = "陷阱",
+	["pl"] = "Płapka",
 })
 
 ZShelter.L("#Turret", {
@@ -118,6 +133,7 @@ ZShelter.L("#Turret", {
 	["ru"] = "Турели",
 	["zh-TW"] = "砲塔",
 	["zh-CN"] = "炮塔",
+	["pl"] = "Wieżyczka",
 })
 
 ZShelter.L("#Generator", {
@@ -127,6 +143,7 @@ ZShelter.L("#Generator", {
 	["ru"] = "Генератор",
 	["zh-TW"] = "發電機",
 	["zh-CN"] = "发电机",
+	["pl"] = "Generator",
 })
 
 ZShelter.L("#Recovery", {
@@ -136,6 +153,7 @@ ZShelter.L("#Recovery", {
 	["ru"] = "Восстановление",
 	["zh-TW"] = "恢復設施",
 	["zh-CN"] = "回复设施",
+	["pl"] = "Regeneracja",
 })
 
 ZShelter.L("#Storage", {
@@ -145,6 +163,7 @@ ZShelter.L("#Storage", {
 	["ru"] = "Склад",
 	["zh-TW"] = "倉庫",
 	["zh-CN"] = "仓库",
+	["pl"] = "Magazyn",
 })
 
 ZShelter.L("#Public Construction", {
@@ -154,6 +173,7 @@ ZShelter.L("#Public Construction", {
 	["ru"] = "Общ. строительство",
 	["zh-TW"] = "公共建設",
 	["zh-CN"] = "公共设施",
+	["pl"] = "Konstrukcja publiczna",
 })
 
 ZShelter.L("#Wooden Wall", {
@@ -163,6 +183,7 @@ ZShelter.L("#Wooden Wall", {
 	["ru"] = "Деревянная стена",
 	["zh-TW"] = "木製牆壁",
 	["zh-CN"] = "木制墙壁",
+	["pl"] = "Drewniana Ściana",
 })
 
 ZShelter.L("#Wooden Spike Wall", {
@@ -172,6 +193,7 @@ ZShelter.L("#Wooden Spike Wall", {
 	["tr"] = "Dikenli Ahşap Duvar",
 	["zh-TW"] = "木製尖刺",
 	["zh-CN"] = "木制尖刺",
+	["pl"] = "Drewniana Ściana z Kolcami",
 })
 
 ZShelter.L("#Wire Fence", {
@@ -181,6 +203,7 @@ ZShelter.L("#Wire Fence", {
 	["ru"] = "Проволочный забор",
 	["zh-TW"] = "鐵絲網",
 	["zh-CN"] = "铁丝网",
+	["pl"] = "Drut",
 })
 
 ZShelter.L("#Metal Wall", {
@@ -190,6 +213,7 @@ ZShelter.L("#Metal Wall", {
 	["ru"] = "Металлическая стена",
 	["zh-TW"] = "鐵製牆壁",
 	["zh-CN"] = "铁制墙壁",
+	["pl"] = "Metalowa Ściana",
 })
 
 ZShelter.L("#Reinforced Wire Fence", {
@@ -199,6 +223,7 @@ ZShelter.L("#Reinforced Wire Fence", {
 	["ru"] = "Армированный проволочный забор",
 	["zh-TW"] = "強化鐵絲網",
 	["zh-CN"] = "强化铁丝网",
+	["pl"] = "Wzmocniony drut",
 })
 
 ZShelter.L("#Metal Gate", {
@@ -208,6 +233,7 @@ ZShelter.L("#Metal Gate", {
 	["ru"] = "Металлические ворота",
 	["zh-TW"] = "鐵絲門",
 	["zh-CN"] = "铁丝门",
+	["pl"] = "Metalowa Brama",
 })
 
 ZShelter.L("#Metal Barricade", {
@@ -217,6 +243,7 @@ ZShelter.L("#Metal Barricade", {
 	["ru"] = "Металлическая баррикада",
 	["zh-TW"] = "鐵製路障",
 	["zh-CN"] = "铁制路障",
+	["pl"] = "Metalowa Barykada",
 })
 
 ZShelter.L("#Concrete Wall", {
@@ -226,6 +253,7 @@ ZShelter.L("#Concrete Wall", {
 	["ru"] = "Бетонная стена",
 	["zh-TW"] = "水泥牆",
 	["zh-CN"] = "水泥墙",
+	["pl"] = "Betonowa Ściana",
 })
 
 ZShelter.L("#Concrete Gate", {
@@ -235,6 +263,7 @@ ZShelter.L("#Concrete Gate", {
 	["ru"] = "Бетонные ворота",
 	["zh-TW"] = "鋼製鐵門",
 	["zh-CN"] = "钢制铁门",
+	["pl"] = "Betonowa Brama",
 })
 
 ZShelter.L("#Reinforced Concrete Wall", {
@@ -244,6 +273,7 @@ ZShelter.L("#Reinforced Concrete Wall", {
 	["ru"] = "Железобетонная стена",
 	["zh-TW"] = "強化水泥牆",
 	["zh-CN"] = "强化水泥墙",
+	["pl"] = "Wzmocniona Betonowa Ściana",
 })
 
 ZShelter.L("#Concrete Barricade", {
@@ -253,6 +283,7 @@ ZShelter.L("#Concrete Barricade", {
 	["ru"] = "Бетонная баррикада",
 	["zh-TW"] = "水泥路障",
 	["zh-CN"] = "水泥路障",
+	["pl"] = "Betonowa Barykada",
 })
 
 ZShelter.L("#Landmine", {
@@ -262,6 +293,7 @@ ZShelter.L("#Landmine", {
 	["ru"] = "Фугас",
 	["zh-TW"] = "地雷",
 	["zh-CN"] = "地雷",
+	["pl"] = "Mina",
 })
 
 ZShelter.L("#Razorwire", {
@@ -271,6 +303,7 @@ ZShelter.L("#Razorwire", {
 	["ru"] = "Колючая проволока",
 	["zh-TW"] = "鐵絲網",
 	["zh-CN"] = "铁丝网",
+	["pl"] = "Kolczatka",
 })
 
 ZShelter.L("#Claymore", {
@@ -280,6 +313,7 @@ ZShelter.L("#Claymore", {
 	["ru"] = "Противопехотная мина",
 	["zh-TW"] = "闊刀地雷",
 	["zh-CN"] = "阔剑地雷",
+	["pl"] = "Claymore",
 })
 
 ZShelter.L("#Freeze Bomb", {
@@ -289,6 +323,7 @@ ZShelter.L("#Freeze Bomb", {
 	["ru"] = "Замораживающая бомба",
 	["zh-TW"] = "冷凍炸彈",
 	["zh-CN"] = "冷冻炸弹",
+	["pl"] = "Bomba Mrożąca",
 })
 
 ZShelter.L("#Spike Trap", {
@@ -298,6 +333,7 @@ ZShelter.L("#Spike Trap", {
 	["ru"] = "Шипастая ловушка",
 	["zh-TW"] = "尖刺陷阱",
 	["zh-CN"] = "尖刺陷阱",
+	["pl"] = "Pułakpa Kolcowa",
 })
 
 ZShelter.L("#Propeller Trap", {
@@ -307,6 +343,7 @@ ZShelter.L("#Propeller Trap", {
 	["ru"] = "Пропеллерная ловушка",
 	["zh-TW"] = "鋸刀陷阱",
 	["zh-CN"] = "锯刃陷阱",
+	["pl"] = "Pułapka z Smigłem",
 })
 
 ZShelter.L("#Flame Trap", {
@@ -316,6 +353,7 @@ ZShelter.L("#Flame Trap", {
 	["ru"] = "Огненная ловушка",
 	["zh-TW"] = "火焰陷阱",
 	["zh-CN"] = "喷火陷阱",
+	["pl"] = "Pułapka Ognista",
 })
 
 ZShelter.L("#CMB Trap", {
@@ -325,6 +363,7 @@ ZShelter.L("#CMB Trap", {
 	["ru"] = "",
 	["zh-TW"] = "凍結地雷",
 	["zh-CN"] = "冻结地雷",
+	["pl"] = "Mina Cryo",
 })
 
 ZShelter.L("#Gravity Mine", {
@@ -334,6 +373,7 @@ ZShelter.L("#Gravity Mine", {
 	["ru"] = "",
 	["zh-TW"] = "引力地雷",
 	["zh-CN"] = "引力地雷",
+	["pl"] = "Mina Grawitacyjna",
 })
 
 ZShelter.L("Laser Trap", {
@@ -343,6 +383,7 @@ ZShelter.L("Laser Trap", {
 	["ru"] = "",
 	["zh-TW"] = "雷射陷阱",
 	["zh-CN"] = "雷射陷阱",
+	["pl"] = "Pułapka Laserowa",
 })
 
 ZShelter.L("#Basic Turret", {
@@ -352,6 +393,7 @@ ZShelter.L("#Basic Turret", {
 	["ru"] = "Основная турель",
 	["zh-TW"] = "槍塔",
 	["zh-CN"] = "炮塔",
+	["pl"] = "Podstawowa Wieżyczka",
 })
 
 ZShelter.L("#Mounted Machine Gun", {
@@ -361,6 +403,7 @@ ZShelter.L("#Mounted Machine Gun", {
 	["ru"] = "Станковый пулемёт",
 	["zh-TW"] = "固定式機槍塔",
 	["zh-CN"] = "固定式炮塔",
+	["pl"] = "Montowany Karabin Maszynowy",
 })
 
 ZShelter.L("#Freeze Turret", {
@@ -370,6 +413,7 @@ ZShelter.L("#Freeze Turret", {
 	["ru"] = "Замораживающая турель",
 	["zh-TW"] = "冷凍槍塔",
 	["zh-CN"] = "冷冻炮塔",
+	["pl"] = "Wieżyczka Mrożąca",
 })
 
 ZShelter.L("#Mending Tower", {
@@ -379,6 +423,7 @@ ZShelter.L("#Mending Tower", {
 	["ru"] = "Ремонтная башня",
 	["zh-TW"] = "建築修復器",
 	["zh-CN"] = "建筑修复器",
+	["pl"] = "Wieżyczka Mending",
 })
 
 ZShelter.L("#Flame Turret", {
@@ -388,6 +433,7 @@ ZShelter.L("#Flame Turret", {
 	["ru"] = "Огнемётная турель",
 	["zh-TW"] = "火焰槍塔",
 	["zh-CN"] = "喷火炮塔",
+	["pl"] = "Wieżyczka Płomienna",
 })
 
 ZShelter.L("#Blast Turret", {
@@ -397,6 +443,7 @@ ZShelter.L("#Blast Turret", {
 	["ru"] = "Взрывная турель",
 	["zh-TW"] = "爆破槍塔",
 	["zh-CN"] = "爆破炮塔",
+	["pl"] = "Wieżyczka Wybuchowa",
 })
 
 ZShelter.L("#Burst Shotgun Turret", {
@@ -406,6 +453,7 @@ ZShelter.L("#Burst Shotgun Turret", {
 	["ru"] = "",
 	["zh-TW"] = "連發霰彈槍塔",
 	["zh-CN"] = "连发霰弹炮塔",
+	["pl"] = "Wieżyczka Strzelba",
 })
 
 ZShelter.L("#Enemy Scanner", {
@@ -415,6 +463,7 @@ ZShelter.L("#Enemy Scanner", {
 	["ru"] = "Сканер",
 	["zh-TW"] = "掃描器",
 	["zh-CN"] = "扫描器",
+	["pl"] = "Skaner Wrogów",
 })
 
 ZShelter.L("#Minigun Turret", {
@@ -424,6 +473,8 @@ ZShelter.L("#Minigun Turret", {
 	["ru"] = "Турель-миниган",
 	["zh-TW"] = "超級機槍塔",
 	["zh-CN"] = "机关枪炮塔",
+	["pl"] = "Wieżyczka Minigun",
+
 })
 
 ZShelter.L("#Pusher Tower", {
@@ -433,6 +484,7 @@ ZShelter.L("#Pusher Tower", {
 	["ru"] = "Толкающая башня",
 	["zh-TW"] = "位移塔",
 	["zh-CN"] = "位移炮塔",
+	["pl"] = "Wieża Pchająca",
 })
 
 ZShelter.L("#Railgun Cannon", {
@@ -442,6 +494,7 @@ ZShelter.L("#Railgun Cannon", {
 	["ru"] = "Рельсотронное орудие",
 	["zh-TW"] = "電磁炮",
 	["zh-CN"] = "电磁炮",
+	["pl"] = "Działo Railgun",
 })
 
 ZShelter.L("#Electric Defense Tower", {
@@ -451,6 +504,7 @@ ZShelter.L("#Electric Defense Tower", {
 	["ru"] = "Электронная башня",
 	["zh-TW"] = "電磁網塔",
 	["zh-CN"] = "电磁防御塔",
+	["pl"] = "Elektryczna Wieża Obronna",
 })
 
 ZShelter.L("#Mortar Cannon", {
