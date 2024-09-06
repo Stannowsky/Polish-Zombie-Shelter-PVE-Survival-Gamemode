@@ -21,6 +21,12 @@
 	Meiryi / Meika / Shiro / Shigure tarafından Zombie Shelter v2.0
 	Oyun modunun ismini ve kodunu ASLA değiştirip düzenleyip yeniden yükleyemezsiniz.
 	Eğer bir problemle karşılaşırsanız, benimle Steam üzerinden iletişime geçebilirsiniz. Bu metni okuduğunuz için teşekkürler.
+
+	PL :
+	Zombie Shelter v2.0 by Meiryi / Meika / Shiro / Shigure
+	NIE POWINIENEŚ edytować / modyfikować / ani rozsyłać danego kodu, tyczy się to też zmieniania nazwy trybu
+	Jeżeli masz jakieś problemy, skontaktuj się zemną na Steam, dziękuję za uwagę
+
 ]]
 
 ZShelter.AddInfo("Health Boost", {
@@ -31,6 +37,7 @@ ZShelter.AddInfo("Health Boost", {
 		["zh-TW"] = "體力提升",
 		["zh-CN"] = "体力提升",
 		["ru"] = "Укрепление здоровья",
+		["pl"] = "Zwiększenie Zdrowia",
 	},
 	desc = {
 		["en"] = "Increases your maximum health everyday, +15 per upgrade",
@@ -39,6 +46,7 @@ ZShelter.AddInfo("Health Boost", {
 		["zh-TW"] = "每日提升最大體力, 每升級一次增加 15",
 		["zh-CN"] = "每天提升最大体力, 每升一级增加 15",
 		["ru"] = "Увеличивает макс. запас здоровья каждый день, +15 ед. за улучшение",
+		["pl"] = "Zwiększa maksymalne zdrowie każdego dnia, +15 na ulepszenie",
 	}
 })
 
@@ -50,6 +58,7 @@ ZShelter.AddInfo("Damage Boost", {
 		["zh-TW"] = "傷害提升",
 		["zh-CN"] = "伤害提升",
 		["ru"] = "Усиление урона",
+		["pl"] = "Zwiększenie Obrażeń",
 	},
 	desc = {
 		["en"] = "Increases your damage to enemies (excluding buildings), +10% per upgrade",
@@ -58,6 +67,7 @@ ZShelter.AddInfo("Damage Boost", {
 		["zh-TW"] = "增加對敵人的傷害,每升級一次增加 10%",
 		["zh-CN"] = "增加对敌人的伤害, 每升一级增加 10%",
 		["ru"] = "Увеличивает урон по врагам (кроме строений), +10% за улучшение",
+		["pl"] = "Zwiększa zadawane obrażenia wrogom (nielicząć budowli), +10% na ulepszenie",
 	}
 })
 
@@ -69,6 +79,7 @@ ZShelter.AddInfo("Damage Boostx1", {
 		["zh-TW"] = "傷害提升",
 		["zh-CN"] = "伤害提升",
 		["ru"] = "Усиление урона",
+		["pl"] = "Zwiększenie Obrażeń",
 	},
 	desc = {
 		["en"] = "Increases your damage to enemies (excluding buildings), +15% per upgrade",
@@ -77,6 +88,7 @@ ZShelter.AddInfo("Damage Boostx1", {
 		["zh-TW"] = "增加對敵人的傷害,每升級一次增加 15%",
 		["zh-CN"] = "增加对敌人的伤害, 每升一级增加 15%",
 		["ru"] = "Увеличивает урон по врагам (кроме строений), +15% за улучшение",
+		["pl"] = "Zwiększa zadawane obrażenia wrogom (nielicząć budowli), +15% na ulepszenie",
 	}
 })
 
@@ -88,6 +100,7 @@ ZShelter.AddInfo("Damage Boostx2", {
 		["zh-TW"] = "傷害提升",
 		["zh-CN"] = "伤害提升",
 		["ru"] = "Усиление урона",
+		["pl"] = "Zwiększenie Obrażeń",
 	},
 	desc = {
 		["en"] = "Increases your damage to enemies (excluding buildings), +25% per upgrade",
@@ -96,6 +109,7 @@ ZShelter.AddInfo("Damage Boostx2", {
 		["zh-TW"] = "增加對敵人的傷害,每升級一次增加 25%",
 		["zh-CN"] = "增加对敌人的伤害, 每升一级增加 25%",
 		["ru"] = "Увеличивает урон по врагам (кроме строений), +25% за улучшение",
+		["pl"] = "Zwiększa zadawane obrażenia wrogom (nielicząć budowli), +25% na ulepszenie",
 	}
 })
 
@@ -107,6 +121,7 @@ ZShelter.AddInfo("Looting", {
 		["zh-TW"] = "掠奪",
 		["zh-CN"] = "掠夺",
 		["ru"] = "Добыча",
+		["pl"] = "Plądrowanie",
 	},
 	desc = {
 		["en"] = "Drops resource bag when killing an enemy, +10% chance per upgrade",
@@ -115,6 +130,7 @@ ZShelter.AddInfo("Looting", {
 		["zh-TW"] = "殺敵時有機率掉落資源, 每升級一次增加 10%",
 		["zh-CN"] = "击杀敌人时有概率掉落资源, 每升一级增加 10%",
 		["ru"] = "Выпадают ресурсы при убийстве врага, +10% к шансу за улучшение",
+		["pl"] = "Upuszcza worek z zasobami po zabiciu wroga, szansa zwększona o 10% z każdym ulepszeniem",
 	}
 })
 
@@ -126,6 +142,7 @@ ZShelter.AddInfo("Armor Boost", {
 		["zh-TW"] = "護甲提升",
 		["zh-CN"] = "护甲提升",
 		["ru"] = "Укрепление брони",
+		["pl"] = "Zwiększenie Obrony",
 	},
 	desc = {
 		["en"] = "Increases maximum armor, +50 per upgrade",
@@ -134,6 +151,7 @@ ZShelter.AddInfo("Armor Boost", {
 		["zh-TW"] = "增加護甲最大值,每升級一次增加 50",
 		["zh-CN"] = "提高护甲上限, 每升一级增加 50",
 		["ru"] = "Увеличивает макс. запас брони, +50 ед. за улучшение",
+		["pl"] = "Zwiększa maksymalną ochronę, +50% na ulepszenie",
 	}
 })
 
@@ -145,6 +163,7 @@ ZShelter.AddInfo("Machete Upgrade", {
 		["zh-TW"] = "柴刀",
 		["zh-CN"] = "柴刀",
 		["ru"] = "Переход на мачете",
+		["pl"] = "Ulepszenie Maczety",
 	},
 	desc = {
 		["en"] = "Upgrades your melee weapon to machete (+173% damage)",
@@ -153,6 +172,7 @@ ZShelter.AddInfo("Machete Upgrade", {
 		["zh-TW"] = "將近戰武器替換成柴刀 (+173%傷害)",
 		["zh-CN"] = "将近战武器替换为柴刀 (+173%伤害)",
 		["ru"] = "Переделать оружие ближнего боя в мачете (+173% к урону)",
+		["pl"] = "Ulepsza twoją broń melee w maczetę (+173% zadawanych obrażeń)",
 	}
 })
 
@@ -164,6 +184,7 @@ ZShelter.AddInfo("Damage Resistance", {
 		["zh-TW"] = "提升防護",
 		["zh-CN"] = "伤害吸收",
 		["ru"] = "Сопротивление урону",
+		["pl"] = "Ochrona na obrażenia",
 	},
 	desc = {
 		["en"] = "Receives less damage from all sources, +20% per upgrade",
@@ -172,6 +193,7 @@ ZShelter.AddInfo("Damage Resistance", {
 		["zh-TW"] = "減少受到的傷害,每升級一次減少 20%",
 		["zh-CN"] = "减少收到的伤害, 每升一级减少 20%",
 		["ru"] = "Получаете меньше урона от всех источников, +20% за улучшение",
+		["pl"] = "Zmniejszone obrażenia z każdych żródeł, +20% na ulepszenie",
 	}
 })
 
@@ -183,6 +205,7 @@ ZShelter.AddInfo("Grenade Supply", {
 		["zh-TW"] = "手榴彈補給",
 		["zh-CN"] = "手榴弹补给",
 		["ru"] = "Поставка гранат",
+		["pl"] = "Zapas Granatów",
 	},
 	desc = {
 		["en"] = "Regenerates a grenade every 15 seconds",
@@ -191,6 +214,7 @@ ZShelter.AddInfo("Grenade Supply", {
 		["zh-TW"] = "每15秒生成一顆手榴彈",
 		["zh-CN"] = "每15秒生成一颗手榴弹",
 		["ru"] = "Восстанавливает гранату каждые 15 секунд",
+		["pl"] = "Regeneruje granat co 15 sekund",
 	}
 })
 
@@ -202,6 +226,7 @@ ZShelter.AddInfo("Double Tap", {
         ["zh-TW"] = "二次打擊",
         ["zh-CN"] = "二次伤害",
         ["ru"] = "Контрольный выстрел",
+        ["en"] = "Podwójne Obrażenia",
     },
     desc = {
         ["en"] = "+25% chance to deal double damage every upgrade",
@@ -210,6 +235,7 @@ ZShelter.AddInfo("Double Tap", {
         ["zh-TW"] = "每升級一次增加 25% 機率造成雙倍傷害",
         ["zh-CN"] = "每升级一次增加 25% 机率造成双倍伤害",
         ["ru"] = "",
+        ["pl"] = "+25% do szans zadania podwójnych obrażeń z każdym ulepszeniem",
     }
 })
 
@@ -221,6 +247,7 @@ ZShelter.AddInfo("Melee Stunning", {
 		["zh-TW"] = "近戰暈眩",
 		["zh-CN"] = "近战晕眩",
 		["ru"] = "Оглушение в ближнем бою",
+		["pl"] = "Ogłuszanie",
 	},
 	desc = {
 		["en"] = "Stun enemies for 0.75s when using melee with secondary attack",
@@ -229,6 +256,7 @@ ZShelter.AddInfo("Melee Stunning", {
 		["zh-TW"] = "使用近戰武器次要攻擊可暈眩敵人0.75秒",
 		["zh-CN"] = "使用近战武器的次要攻击可晕眩敌人0.75秒",
 		["ru"] = "Оглушает врагов на 0,75 сек. альтернативной атакой оружия ближнего боя",
+		["pl"] = "Ogłusz przeciwników na 0.75s używają ataku alternatywnego broni melee",
 	}
 })
 
@@ -240,6 +268,7 @@ ZShelter.AddInfo("Airstrike", {
 		["zh-TW"] = "空襲",
 		["zh-CN"] = "空袭",
 		["ru"] = "Авиаудар",
+		["pl"] = "Nalot",
 	},
 	desc = {
 		["en"] = "Launch a airstrike on the place you aiming at",
@@ -248,6 +277,7 @@ ZShelter.AddInfo("Airstrike", {
 		["zh-TW"] = "對指定地點發動空襲",
 		["zh-CN"] = "对选定地点发动空袭",
 		["ru"] = "Наносит авиаудар по месту, на которое вы нацелились",
+		["pl"] = "Wystrzel pocisk lotniczy w kierunku celownika",
 	}
 })
 
@@ -259,6 +289,7 @@ ZShelter.AddInfo("Combat Stimpack", {
 		["zh-TW"] = "力量注射劑",
 		["zh-CN"] = "力量药水",
 		["ru"] = "Боевой стимулятор",
+		["pl"] = "Wzmocnienie Bojowe",
 	},
 	desc = {
 		["en"] = "Temporary increases your damage by 500%",
@@ -267,6 +298,7 @@ ZShelter.AddInfo("Combat Stimpack", {
 		["zh-TW"] = "暫時提升500%傷害",
 		["zh-CN"] = "暂时提升500%伤害",
 		["ru"] = "Временно увеличивает наносимый урон на 500%",
+		["pl"] = "Tymczasowo zwiększ obrażenia o 500%",
 	}
 })
 
@@ -278,6 +310,7 @@ ZShelter.AddInfo("Beginner Gun Mastery", {
 		["zh-TW"] = "基礎槍枝精通",
 		["zh-CN"] = "基础枪支精通",
 		["ru"] = "Мастер оружия начального уровня",
+		["pl"] = "Okiełznanie Broni",
 	},
 	desc = {
 		["en"] = "Allows you to craft SMG, Shotgun from workstation",
@@ -286,6 +319,7 @@ ZShelter.AddInfo("Beginner Gun Mastery", {
 		["zh-TW"] = "可從工作台製造衝鋒槍/霰彈槍",
 		["zh-CN"] = "可从工作台制作冲锋枪/霰弹枪",
 		["ru"] = "Позволяет создавать пистолеты-пулемёты и дробовики на верстаке",
+		["pl"] = "Zezwala na wytwarzanie SMG i Strzelby w stacji roboczej",
 	}
 })
 
@@ -297,6 +331,7 @@ ZShelter.AddInfo("Intermediate Gun Mastery", {
 		["zh-TW"] = "中級槍枝精通",
 		["zh-CN"] = "中级枪支精通",
 		["ru"] = "Мастер оружия среднего уровня",
+		["pl"] = "Opanowanie Broni",
 	},
 	desc = {
 		["en"] = "Allows you to craft Rifle from workstation",
@@ -305,6 +340,7 @@ ZShelter.AddInfo("Intermediate Gun Mastery", {
 		["zh-TW"] = "可從工作台製造步槍",
 		["zh-CN"] = "可从工作台制作步枪",
 		["ru"] = "Позволяет создавать винтовки на верстаке",
+		["pl"] = "Umożliwia stworzenie karabinu w stacji roboczej",
 	}
 })
 
@@ -316,6 +352,7 @@ ZShelter.AddInfo("Advanced Gun Mastery", {
 		["zh-TW"] = "高級槍枝精通",
 		["zh-CN"] = "高级枪支精通",
 		["ru"] = "Мастер оружия продвинутого уровня",
+		["pl"] = "Mistrz Spluwy",
 	},
 	desc = {
 		["en"] = "Allows you to craft Machine gun / Explosives from workstation",
@@ -324,6 +361,7 @@ ZShelter.AddInfo("Advanced Gun Mastery", {
 		["zh-TW"] = "可從工作台製造機槍/爆裂物",
 		["zh-CN"] = "可从工作台制造机枪/爆炸物",
 		["ru"] = "Позволяет создавать пулемёты и взрывчатку на верстаке",
+		["pl"] = "Zezwala na wytwarzanie Karabinu Maszynowego oraz Materiały Wybuchowe w stacji roboczej",
 	}
 })
 
@@ -335,6 +373,7 @@ ZShelter.AddInfo("Damage Amplifier", {
 		["zh-TW"] = "群體傷害提升",
 		["zh-CN"] = "群体伤害提升",
 		["ru"] = "Усилитель урона",
+		["pl"] = "Mnożnik Obrażeń",
 	},
 	desc = {
 		["en"] = "Increases all nearby player / turret's damage, +15% per upgrade",
@@ -343,6 +382,7 @@ ZShelter.AddInfo("Damage Amplifier", {
 		["zh-TW"] = "提升附近所有玩家/砲塔的傷害, 每升一级增加 15%",
 		["zh-CN"] = "提升附近所有玩家/炮塔的伤害, 每升一级增加 15%",
 		["ru"] = "Увеличивает урон всех ближайших игроков / турелей",
+		["pl"] = "Zwiększa obrażenia graczy i wieżyczek, +15% na ulepszenie",
 	}
 })
 
@@ -354,6 +394,7 @@ ZShelter.AddInfo("Vampire", {
 		["zh-TW"] = "生命竊取",
 		["zh-CN"] = "吸血鬼",
 		["ru"] = "Вампир",
+		["pl"] = "Wampir",
 	},
 	desc = {
 		["en"] = "Recover health when killing an enemy, +5 HP per upgrade",
@@ -362,6 +403,7 @@ ZShelter.AddInfo("Vampire", {
 		["zh-TW"] = "擊殺敵人時恢復自身生命值, 每升級一次增加 5",
 		["zh-CN"] = "击杀敌人后可恢复自身生命值, 每升一级增加 5",
 		["ru"] = "Восстанавливает здоровье, убивая врагов",
+		["pl"] = "Przywracaj zdrowie po zabiciu wroga, +5 zdrowia na ulepszenie",
 	}
 })
 
@@ -373,6 +415,7 @@ ZShelter.AddInfo("Self Recovering", {
 		["zh-TW"] = "生命回復",
 		["zh-CN"] = "生命恢复",
 		["ru"] = "Самовосстановление",
+		["pl"] = "Powrót do Formy",
 	},
 	desc = {
 		["en"] = "Recovers health every second, +2 HP recovery per upgrade",
@@ -381,6 +424,7 @@ ZShelter.AddInfo("Self Recovering", {
 		["zh-TW"] = "每秒鐘回復生命值",
 		["zh-CN"] = "每秒钟回复一定生命值",
 		["ru"] = "Восстанавливает здоровье ежесекундно",
+		["pl"] = "Przywraca zdrowie co sekundę, +2 zdrowia na ulepszenie",
 	}
 })
 
@@ -392,6 +436,7 @@ ZShelter.AddInfo("Double Trigger", {
 		["zh-TW"] = "雙擊板機",
 		["zh-CN"] = "双重扳机",
 		["ru"] = "Двойной выстрел",
+		["pl"] = "Podwójny Spust",
 	},
 	desc = {
 		["en"] = "Attack additional targets when you shoot\n+1 Target per upgrade\n+10 Damage per upgrade (Base damage 25)",
@@ -400,6 +445,7 @@ ZShelter.AddInfo("Double Trigger", {
 		["zh-TW"] = "開火時額外多攻擊一個目標\n每升級一次多增加一個攻擊目標\n每升級一次多增加 10 傷害 (基礎傷害25)",
 		["zh-CN"] = "开火时额外攻击一个目标\n每升一级增加一个攻击目标\n每升一级增加 10 伤害 (基础伤害为25)",
 		["ru"] = "Атакуйте дополнительные цели, когда стреляете\n+1 цель за улучшение\n+10 ед. урона за улучшение (основной урон: 25 ед.)",
+		["pl"] = "Atakuj dodatkowe cele podczas strzału\n+1 Cel na ulepszenie\n+10 Obrażeń na ulepszenie (Obrażenia domyślne: 25)",
 	}
 })
 
@@ -411,6 +457,7 @@ ZShelter.AddInfo("Grenade Stunning", {
 		["zh-TW"] = "暈眩彈",
 		["zh-CN"] = "晕眩弹",
 		["ru"] = "Оглушающая граната",
+		["pl"] = "Ogłuszanie Granatowe",
 	},
 	desc = {
 		["en"] = "Grenade can stun enemies, +2.5s per upgrade",
@@ -419,6 +466,7 @@ ZShelter.AddInfo("Grenade Stunning", {
 		["zh-TW"] = "手榴彈可以暈眩敵人, 每升級一次增加 2.5 秒",
 		["zh-CN"] = "手榴弹可以晕眩敌人, 每升一级增加 2.5 秒",
 		["ru"] = "Гранаты могут оглушать врагов, +2,5 сек. за улучшение",
+		["pl"] = "Granaty ogłuszają wrogów, +2.5s na ulepszenie",
 	}
 })
 
@@ -430,6 +478,7 @@ ZShelter.AddInfo("Damage Reflecting", {
         ["zh-TW"] = "傷害反彈",
         ["zh-CN"] = "伤害反弹",
         ["ru"] = "",
+        ["pl"] = "Odbijanie Pocisków",
     },
     desc = {
         ["en"] = "Reflecting all incoming damage, +50% damage per upgrade",
@@ -438,5 +487,6 @@ ZShelter.AddInfo("Damage Reflecting", {
         ["zh-TW"] = "反彈所有受到的傷害, 每升級一次增加 50%",
         ["zh-CN"] = "反弹所有受到的伤害, 每升级一次增加 50%",
         ["ru"] = "",
+        ["pl"] = "Odbija wszystkie przychodzące ataki, +50% obrażeń na ulepszenie",
     }
 })
